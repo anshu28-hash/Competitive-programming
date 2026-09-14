@@ -6,6 +6,7 @@ int main()
     if (C%3 ==0 && C%5 ==0){
         printf("Yes");
     }
+    
     else{
         printf("No");
     }
