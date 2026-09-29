@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 int main() {
     int N;
     scanf("%d",&N);
@@ -10,10 +10,10 @@ int main() {
         if(x > max){
             max = x;
         }
-
+ 
         N--;
     }
-
+ 
     printf("%d",max);
-
+ 
 }

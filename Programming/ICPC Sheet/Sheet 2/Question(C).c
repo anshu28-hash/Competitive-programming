@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+ 
 int main()
 {
     int N;
@@ -12,7 +12,7 @@ int main()
     {
         int x;
         scanf("%d",&x);
-
+ 
         if (x % 2 == 0)
         {
             even++;
@@ -21,7 +21,7 @@ int main()
         {
             odd++;
         }
-
+ 
         if (x > 0)
         {
             ptv++;
