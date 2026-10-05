@@ -1,22 +1,18 @@
-#include <iostream>
-#include <cmath>
+#include <stdio.h>
+#include <string.h>
 
-using namespace std;
-
-struct Point {
-    double x;
-    double y;
+struct Student{
+    char name[100];
+    int age, marks;
 };
 
-double calculateDistance(Point p1, Point p2) {
-    return sqrt(pow(p2.x - p1.x, 2) + pow(p2.y - p1.y, 2));
-}
-
-int main() {
-    Point p1 = {0.0, 0.0};
-    Point p2 = {3.0, 4.0};
-
-    double distance = calculateDistance(p1, p2);
-    cout << "Distance: " << distance << endl;
-
+int main(){
+    struct Student s;
+    printf("Name : ");
+    scanf("%s", &s.name);
+    printf("Age : ");
+    scanf("%d", &s.age);
+    printf("Marks : ");
+    scanf("%d", &s.marks);
+    printf("%s, %d, %d,", s.name, s.age, s.marks);
 }
